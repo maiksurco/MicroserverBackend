@@ -1,7 +1,7 @@
 server:
   port: 8083
 springdoc:
-  api-doc:
+  api-docs:
     enabled: true
   swagger-ui:
     enabled: true
@@ -12,7 +12,7 @@ spring:
     show-sql: true
     generate-ddl: true
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/catalogo?useSSL=false&serverTimezone=UTC
     username: root
     password:
-    driver-class-name: com.mysql.cj.jdbc.Driver

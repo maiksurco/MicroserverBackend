@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 7070
 spring:
   application:
     name: config-server
@@ -10,9 +10,6 @@ spring:
           uri: https://github.com/maiksurco/MicroserverBackend.git
           search-paths: config-data
           default-label: main
-            #username: rickisurco
-          #password: a12b68deh6mk89
-
   security:
     user:
       name: root
