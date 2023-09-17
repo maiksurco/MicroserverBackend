@@ -1,5 +1,5 @@
 server:
-  port: 7071
+  port: 7070
 spring:
   application:
     name: config-server
@@ -11,7 +11,7 @@ spring:
           #username:
           #password:
           search-paths: config-data
-          default-label: ms-config-server
+          default-label: ms-config-server 
   security:
     user:
       name: root
