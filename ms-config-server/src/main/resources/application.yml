@@ -1,5 +1,5 @@
 server:
-  port: 7070
+  port: 7071
 spring:
   application:
     name: config-server
@@ -8,6 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/maiksurco/MicroserverBackend.git
+          #username:
+          #password:
           search-paths: config-data
           default-label: main
   security:
