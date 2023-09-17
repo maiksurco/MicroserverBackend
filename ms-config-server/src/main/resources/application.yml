@@ -11,7 +11,7 @@ spring:
           #username:
           #password:
           search-paths: config-data
-          default-label: main
+          default-label: ms-config-server
   security:
     user:
       name: root
